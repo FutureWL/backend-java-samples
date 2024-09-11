@@ -5,22 +5,29 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.github.futurewl</groupId>
-        <artifactId>web</artifactId>
+        <artifactId>web-webpage</artifactId>
         <version>v.2.7.x</version>
     </parent>
 
-    <artifactId>web-webpage</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>web-webpage-thymeleaf</module>
-    </modules>
+    <artifactId>web-webpage-thymeleaf</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <dependencies>
 
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
 
+        <!-- 模板引擎 thymeleaf -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
 
+    </dependencies>
 </project>
