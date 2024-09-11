@@ -16,6 +16,7 @@
         <module>web-security</module>
         <module>web-shiro</module>
         <module>web-oauth2</module>
+        <module>web-webpage</module>
     </modules>
 
     <properties>
