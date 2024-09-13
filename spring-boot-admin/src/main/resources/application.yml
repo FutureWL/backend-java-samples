@@ -6,7 +6,7 @@ spring:
       client:
         url: http://localhost:9999 # The URL of the Spring Boot Admin Server to register at.
         instance:
-          service-base-url: http://192.168.0.216:9999
+          service-base-url: http://localhost:9999
 management:
   endpoint:
     shutdown:
