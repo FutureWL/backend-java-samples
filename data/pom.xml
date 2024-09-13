@@ -16,7 +16,6 @@
         <module>data-mybatis</module>
         <module>data-mybatis-plus</module>
         <module>data-jdbc</module>
-        <module>data-jpa</module>
         <module>data-jpa-rest</module>
     </modules>
 

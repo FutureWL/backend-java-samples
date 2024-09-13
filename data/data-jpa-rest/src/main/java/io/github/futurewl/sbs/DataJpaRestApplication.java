@@ -4,8 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DataJpaApplicationV26x {
+public class DataJpaRestApplication {
     public static void main(String[] args) {
-        SpringApplication.run(DataJpaApplicationV26x.class, args);
+        SpringApplication.run(DataJpaRestApplication.class, args);
     }
 }
