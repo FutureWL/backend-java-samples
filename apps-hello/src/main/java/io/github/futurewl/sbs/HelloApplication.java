@@ -1,4 +1,4 @@
-package io.github.futurewl.sbs.v31x;
+package io.github.futurewl.sbs;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @SpringBootApplication
-public class HelloApplicationV31x {
+public class HelloApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(HelloApplicationV31x.class, args);
+        SpringApplication.run(HelloApplication.class, args);
     }
 
     @GetMapping("/hello")
