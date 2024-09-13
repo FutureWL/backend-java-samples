@@ -5,16 +5,11 @@
     <parent>
         <artifactId>spring-boot-samples</artifactId>
         <groupId>io.github.futurewl</groupId>
-        <version>v.3.1.x</version>
+        <version>v.3.x.x</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>apps-hello</artifactId>
-
-    <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
-    </properties>
 
     <dependencies>
         <dependency>
