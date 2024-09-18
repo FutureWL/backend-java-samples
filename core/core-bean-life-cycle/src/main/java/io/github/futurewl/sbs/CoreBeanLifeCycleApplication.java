@@ -10,7 +10,7 @@ import org.springframework.context.annotation.ImportResource;
 @Slf4j
 @SpringBootApplication
 @ImportResource(value = {"classpath:application-context.xml"})
-public class CoreBeanLifeCycleApplicationV26x implements CommandLineRunner {
+public class CoreBeanLifeCycleApplication implements CommandLineRunner {
 
     @Autowired
     private Person person1;
@@ -19,7 +19,7 @@ public class CoreBeanLifeCycleApplicationV26x implements CommandLineRunner {
     private Person person2;
 
     public static void main(String[] args) {
-        SpringApplication.run(CoreBeanLifeCycleApplicationV26x.class, args);
+        SpringApplication.run(CoreBeanLifeCycleApplication.class, args);
     }
 
     @Override

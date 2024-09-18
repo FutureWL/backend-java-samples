@@ -8,9 +8,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * 参考博客：https://blog.csdn.net/qq_22075913/article/details/125148535
  */
 @SpringBootApplication
-@MapperScan("io.github.futurewl.sbs.v26x.mapper")
-public class WebSecurityV26xApp {
+@MapperScan("io.github.futurewl.sbs.mapper")
+public class WebSecurityApp {
     public static void main(String[] args) {
-        SpringApplication.run(WebSecurityV26xApp.class, args);
+        SpringApplication.run(WebSecurityApp.class, args);
     }
 }

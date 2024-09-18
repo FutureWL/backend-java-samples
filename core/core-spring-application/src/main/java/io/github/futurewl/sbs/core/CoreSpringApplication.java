@@ -4,7 +4,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 
 @SpringBootApplication
-public class CoreSpringApplicationV26x {
+public class CoreSpringApplication {
 
     /**
      * 功能描述：通过委托 SpringApplication.run() 方法启动 SpringBootApplication
@@ -16,7 +16,7 @@ public class CoreSpringApplicationV26x {
         //        SpringApplication.run(CoreSpringApplicationV26x.class, args);
 
         new SpringApplicationBuilder()
-                .sources(CoreSpringApplicationV26x.class)
+                .sources(CoreSpringApplication.class)
 //                .parent(CoreSpringApplicationV26x.class)
 //                .child(CoreSpringApplicationV26x.class)
 //                .bannerMode(Banner.Mode.OFF)

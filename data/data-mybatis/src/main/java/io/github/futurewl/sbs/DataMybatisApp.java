@@ -5,9 +5,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("io.github.futurewl.sbs.v26x.mapper")
-public class DataMybatisV26xApp {
+@MapperScan("io.github.futurewl.sbs.mapper")
+public class DataMybatisApp {
     public static void main(String[] args) {
-        SpringApplication.run(DataMybatisV26xApp.class, args);
+        SpringApplication.run(DataMybatisApp.class, args);
     }
 }

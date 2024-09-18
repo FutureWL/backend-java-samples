@@ -5,20 +5,18 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * 功能描述：Webflux 应用
- */
 @RestController
 @SpringBootApplication
-public class WebfluxV26xApp {
-
-
-    @GetMapping
-    public String hello() {
-        return "hello webflux";
-    }
+public class HelloApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(WebfluxV26xApp.class, args);
+        SpringApplication.run(HelloApplication.class, args);
     }
+
+    @GetMapping("/hello")
+    public String hello(String name) {
+        return "Hello," + name;
+    }
+
+
 }

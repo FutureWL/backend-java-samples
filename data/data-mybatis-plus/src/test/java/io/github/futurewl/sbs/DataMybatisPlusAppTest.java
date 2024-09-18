@@ -9,7 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.util.List;
 
 @SpringBootTest
-public class DataMybatisPlusV26xAppTest {
+public class DataMybatisPlusAppTest {
 
     @Autowired
     private UserMapper userMapper;

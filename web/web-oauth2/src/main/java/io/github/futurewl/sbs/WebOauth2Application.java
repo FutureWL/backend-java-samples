@@ -1,13 +1,11 @@
 package io.github.futurewl.sbs;
 
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("io.github.futurewl.sbs.v26x.mapper")
-public class DataMybatisPlusV26xApp {
+public class WebOauth2Application {
     public static void main(String[] args) {
-        SpringApplication.run(DataMybatisPlusV26xApp.class, args);
+        SpringApplication.run(WebOauth2Application.class, args);
     }
 }

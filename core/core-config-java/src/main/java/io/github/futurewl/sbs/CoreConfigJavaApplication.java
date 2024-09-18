@@ -4,8 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CoreConfigJavaApplicationV26x {
+public class CoreConfigJavaApplication {
     public static void main(String[] args) {
-        SpringApplication.run(CoreConfigJavaApplicationV26x.class, args);
+        SpringApplication.run(CoreConfigJavaApplication.class, args);
     }
 }

@@ -8,14 +8,14 @@ import org.springframework.context.annotation.ImportResource;
 
 @SpringBootApplication
 @ImportResource(value = {"classpath:application-context.xml"})
-public class CoreConfigApplicationV26x implements CommandLineRunner {
+public class CoreConfigApplication implements CommandLineRunner {
 
 
     @Autowired
     private User user;
 
     public static void main(String[] args) {
-        SpringApplication.run(CoreConfigApplicationV26x.class, args);
+        SpringApplication.run(CoreConfigApplication.class, args);
     }
 
     @Override
